@@ -2,7 +2,7 @@ export default {
   "title": "opencampus.sh projects",
   "tagline": "check out the projects",
   "url": "https://opencampus-sh.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/projects/build/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/logo_OC.ico",

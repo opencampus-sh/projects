@@ -1,9 +1,9 @@
 {
-  "/-deb": {
+  "/projects/build/-f3b": {
     "component": "c4f5d8e4",
     "config": "5e9f5e1a"
   },
-  "/blog-520": {
+  "/projects/build/blog-551": {
     "component": "a6aa9e1f",
     "sidebar": "814f3328",
     "items": [
@@ -20,33 +20,33 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "b2b675dd"
+    "metadata": "8697e136"
   },
-  "/blog/archive-f4c": {
+  "/projects/build/blog/archive-14d": {
     "component": "9e4087bc",
-    "archive": "b2f554cd"
+    "archive": "73a6c9a0"
   },
-  "/blog/first-blog-post-6c7": {
+  "/projects/build/blog/first-blog-post-9b5": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/blog/long-blog-post-f06": {
+  "/projects/build/blog/long-blog-post-3bd": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/blog/mdx-blog-post-bee": {
+  "/projects/build/blog/mdx-blog-post-9c6": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/blog/tags-e13": {
+  "/projects/build/blog/tags-39b": {
     "component": "01a85c17",
     "sidebar": "814f3328",
-    "tags": "a7023ddc"
+    "tags": "dfa74617"
   },
-  "/blog/tags/docusaurus-ddf": {
+  "/projects/build/blog/tags/docusaurus-a34": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -63,9 +63,9 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "a80da1cf"
+    "metadata": "c48a0161"
   },
-  "/blog/tags/facebook-ede": {
+  "/projects/build/blog/tags/facebook-763": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -73,9 +73,9 @@
         "content": "7661071f"
       }
     ],
-    "metadata": "031793e1"
+    "metadata": "f4374462"
   },
-  "/blog/tags/hello-4c2": {
+  "/projects/build/blog/tags/hello-393": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -86,9 +86,9 @@
         "content": "8717b14a"
       }
     ],
-    "metadata": "30a24c52"
+    "metadata": "0dcdf2ba"
   },
-  "/blog/tags/hola-752": {
+  "/projects/build/blog/tags/hola-133": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -96,58 +96,58 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "e16015ca"
+    "metadata": "ffb1d295"
   },
-  "/blog/welcome-bfa": {
+  "/projects/build/blog/welcome-c03": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/docs/tags-0cc": {
+  "/projects/build/docs/tags-73c": {
     "component": "3720c009",
     "tags": "55960ee5"
   },
-  "/markdown-page-be1": {
+  "/projects/build/markdown-page-785": {
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/docs-87d": {
+  "/projects/build/docs-36b": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/docs/intro-aed": {
+  "/projects/build/docs/intro-b4a": {
     "component": "17896441",
     "content": "0e384e19"
   },
-  "/docs/tutorial-basics/congratulations-793": {
+  "/projects/build/docs/tutorial-basics/congratulations-22e": {
     "component": "17896441",
     "content": "822bd8ab"
   },
-  "/docs/tutorial-basics/create-a-blog-post-68e": {
+  "/projects/build/docs/tutorial-basics/create-a-blog-post-e05": {
     "component": "17896441",
     "content": "533a09ca"
   },
-  "/docs/tutorial-basics/create-a-document-c2d": {
+  "/projects/build/docs/tutorial-basics/create-a-document-40c": {
     "component": "17896441",
     "content": "1e4232ab"
   },
-  "/docs/tutorial-basics/create-a-page-f44": {
+  "/projects/build/docs/tutorial-basics/create-a-page-012": {
     "component": "17896441",
     "content": "5c868d36"
   },
-  "/docs/tutorial-basics/deploy-your-site-e46": {
+  "/projects/build/docs/tutorial-basics/deploy-your-site-ea3": {
     "component": "17896441",
     "content": "f55d3e7a"
   },
-  "/docs/tutorial-basics/markdown-features-4b7": {
+  "/projects/build/docs/tutorial-basics/markdown-features-dcd": {
     "component": "17896441",
     "content": "18c41134"
   },
-  "/docs/tutorial-extras/manage-docs-versions-fdd": {
+  "/projects/build/docs/tutorial-extras/manage-docs-versions-52d": {
     "component": "17896441",
     "content": "dff1c289"
   },
-  "/docs/tutorial-extras/translate-your-site-2d7": {
+  "/projects/build/docs/tutorial-extras/translate-your-site-48b": {
     "component": "17896441",
     "content": "e44a2883"
   }

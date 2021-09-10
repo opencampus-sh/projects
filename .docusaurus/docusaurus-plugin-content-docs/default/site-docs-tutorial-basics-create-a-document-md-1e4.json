@@ -7,7 +7,7 @@
   "source": "@site/docs/tutorial-basics/create-a-document.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-document",
-  "permalink": "/docs/tutorial-basics/create-a-document",
+  "permalink": "/projects/build/docs/tutorial-basics/create-a-document",
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/create-a-document.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Create a Page",
-    "permalink": "/docs/tutorial-basics/create-a-page"
+    "permalink": "/projects/build/docs/tutorial-basics/create-a-page"
   },
   "next": {
     "title": "Create a Blog Post",
-    "permalink": "/docs/tutorial-basics/create-a-blog-post"
+    "permalink": "/projects/build/docs/tutorial-basics/create-a-blog-post"
   }
 }

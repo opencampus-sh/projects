@@ -7,7 +7,7 @@
   "source": "@site/docs/tutorial-basics/markdown-features.mdx",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/markdown-features",
-  "permalink": "/docs/tutorial-basics/markdown-features",
+  "permalink": "/projects/build/docs/tutorial-basics/markdown-features",
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/markdown-features.mdx",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Create a Blog Post",
-    "permalink": "/docs/tutorial-basics/create-a-blog-post"
+    "permalink": "/projects/build/docs/tutorial-basics/create-a-blog-post"
   },
   "next": {
     "title": "Deploy your site",
-    "permalink": "/docs/tutorial-basics/deploy-your-site"
+    "permalink": "/projects/build/docs/tutorial-basics/deploy-your-site"
   }
 }

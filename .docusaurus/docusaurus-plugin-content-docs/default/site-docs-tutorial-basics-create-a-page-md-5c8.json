@@ -7,7 +7,7 @@
   "source": "@site/docs/tutorial-basics/create-a-page.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-page",
-  "permalink": "/docs/tutorial-basics/create-a-page",
+  "permalink": "/projects/build/docs/tutorial-basics/create-a-page",
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/create-a-page.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Tutorial Intro",
-    "permalink": "/docs/intro"
+    "permalink": "/projects/build/docs/intro"
   },
   "next": {
     "title": "Create a Document",
-    "permalink": "/docs/tutorial-basics/create-a-document"
+    "permalink": "/projects/build/docs/tutorial-basics/create-a-document"
   }
 }
