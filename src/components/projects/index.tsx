@@ -187,6 +187,15 @@ function ShowcaseCards({filteredUsers}: {filteredUsers: User[]}) {
   );
 }
 
+/*
+<ShowcaseFilters
+  selectedTags={selectedTags}
+  toggleTag={toggleTag}
+  operator={operator}
+  setOperator={setOperator}
+/>
+*/
+
 function Showcase() {
   const {selectedTags, toggleTag} = useSelectedTags();
   const [operator, setOperator] = useState<Operator>('OR');
@@ -195,12 +204,7 @@ function Showcase() {
     <div>
       <main className="container margin-vert--lg">
         <ShowcaseHeader />
-        <ShowcaseFilters
-          selectedTags={selectedTags}
-          toggleTag={toggleTag}
-          operator={operator}
-          setOperator={setOperator}
-        />
+
         <ShowcaseCards filteredUsers={filteredUsers} />
       </main>
     </div>

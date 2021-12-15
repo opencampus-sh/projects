@@ -9,6 +9,41 @@ export default [
     exact: true
   },
   {
+    path: '/projects/__docusaurus/debug',
+    component: ComponentCreator('/projects/__docusaurus/debug','991'),
+    exact: true
+  },
+  {
+    path: '/projects/__docusaurus/debug/config',
+    component: ComponentCreator('/projects/__docusaurus/debug/config','f9d'),
+    exact: true
+  },
+  {
+    path: '/projects/__docusaurus/debug/content',
+    component: ComponentCreator('/projects/__docusaurus/debug/content','c3e'),
+    exact: true
+  },
+  {
+    path: '/projects/__docusaurus/debug/globalData',
+    component: ComponentCreator('/projects/__docusaurus/debug/globalData','c45'),
+    exact: true
+  },
+  {
+    path: '/projects/__docusaurus/debug/metadata',
+    component: ComponentCreator('/projects/__docusaurus/debug/metadata','317'),
+    exact: true
+  },
+  {
+    path: '/projects/__docusaurus/debug/registry',
+    component: ComponentCreator('/projects/__docusaurus/debug/registry','423'),
+    exact: true
+  },
+  {
+    path: '/projects/__docusaurus/debug/routes',
+    component: ComponentCreator('/projects/__docusaurus/debug/routes','a6e'),
+    exact: true
+  },
+  {
     path: '/projects/blog',
     component: ComponentCreator('/projects/blog','7e1'),
     exact: true
