@@ -1,9 +1,9 @@
 {
-  "/projects/build/-f3b": {
+  "/projects/-a90": {
     "component": "c4f5d8e4",
     "config": "5e9f5e1a"
   },
-  "/projects/build/blog-551": {
+  "/projects/blog-7e1": {
     "component": "a6aa9e1f",
     "sidebar": "814f3328",
     "items": [
@@ -20,33 +20,33 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "8697e136"
+    "metadata": "54a302c5"
   },
-  "/projects/build/blog/archive-14d": {
+  "/projects/blog/archive-70a": {
     "component": "9e4087bc",
-    "archive": "73a6c9a0"
+    "archive": "39986dc1"
   },
-  "/projects/build/blog/first-blog-post-9b5": {
+  "/projects/blog/first-blog-post-202": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/projects/build/blog/long-blog-post-3bd": {
+  "/projects/blog/long-blog-post-777": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/projects/build/blog/mdx-blog-post-9c6": {
+  "/projects/blog/mdx-blog-post-7b3": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/projects/build/blog/tags-39b": {
+  "/projects/blog/tags-758": {
     "component": "01a85c17",
     "sidebar": "814f3328",
-    "tags": "dfa74617"
+    "tags": "e3c0ed3e"
   },
-  "/projects/build/blog/tags/docusaurus-a34": {
+  "/projects/blog/tags/docusaurus-369": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -63,9 +63,9 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "c48a0161"
+    "metadata": "82cc5a96"
   },
-  "/projects/build/blog/tags/facebook-763": {
+  "/projects/blog/tags/facebook-82f": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -73,9 +73,9 @@
         "content": "7661071f"
       }
     ],
-    "metadata": "f4374462"
+    "metadata": "2d848ddc"
   },
-  "/projects/build/blog/tags/hello-393": {
+  "/projects/blog/tags/hello-cc3": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -86,9 +86,9 @@
         "content": "8717b14a"
       }
     ],
-    "metadata": "0dcdf2ba"
+    "metadata": "679673c6"
   },
-  "/projects/build/blog/tags/hola-133": {
+  "/projects/blog/tags/hola-857": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -96,58 +96,58 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "ffb1d295"
+    "metadata": "1f2c7d06"
   },
-  "/projects/build/blog/welcome-c03": {
+  "/projects/blog/welcome-f1d": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/projects/build/docs/tags-73c": {
+  "/projects/docs/tags-6ac": {
     "component": "3720c009",
     "tags": "55960ee5"
   },
-  "/projects/build/markdown-page-785": {
+  "/projects/markdown-page-f65": {
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/projects/build/docs-36b": {
+  "/projects/docs-6f0": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/projects/build/docs/intro-b4a": {
+  "/projects/docs/intro-690": {
     "component": "17896441",
     "content": "0e384e19"
   },
-  "/projects/build/docs/tutorial-basics/congratulations-22e": {
+  "/projects/docs/tutorial-basics/congratulations-28d": {
     "component": "17896441",
     "content": "822bd8ab"
   },
-  "/projects/build/docs/tutorial-basics/create-a-blog-post-e05": {
+  "/projects/docs/tutorial-basics/create-a-blog-post-ac5": {
     "component": "17896441",
     "content": "533a09ca"
   },
-  "/projects/build/docs/tutorial-basics/create-a-document-40c": {
+  "/projects/docs/tutorial-basics/create-a-document-411": {
     "component": "17896441",
     "content": "1e4232ab"
   },
-  "/projects/build/docs/tutorial-basics/create-a-page-012": {
+  "/projects/docs/tutorial-basics/create-a-page-c52": {
     "component": "17896441",
     "content": "5c868d36"
   },
-  "/projects/build/docs/tutorial-basics/deploy-your-site-ea3": {
+  "/projects/docs/tutorial-basics/deploy-your-site-24a": {
     "component": "17896441",
     "content": "f55d3e7a"
   },
-  "/projects/build/docs/tutorial-basics/markdown-features-dcd": {
+  "/projects/docs/tutorial-basics/markdown-features-ff9": {
     "component": "17896441",
     "content": "18c41134"
   },
-  "/projects/build/docs/tutorial-extras/manage-docs-versions-52d": {
+  "/projects/docs/tutorial-extras/manage-docs-versions-5b6": {
     "component": "17896441",
     "content": "dff1c289"
   },
-  "/projects/build/docs/tutorial-extras/translate-your-site-48b": {
+  "/projects/docs/tutorial-extras/translate-your-site-6d4": {
     "component": "17896441",
     "content": "e44a2883"
   }

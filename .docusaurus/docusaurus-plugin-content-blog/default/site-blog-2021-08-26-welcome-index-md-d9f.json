@@ -1,5 +1,5 @@
 {
-  "permalink": "/projects/build/blog/welcome",
+  "permalink": "/projects/blog/welcome",
   "editUrl": "https://github.com/opencampus-sh/ML-Projects/blog/blog/2021-08-26-welcome/index.md",
   "source": "@site/blog/2021-08-26-welcome/index.md",
   "title": "Welcome",
@@ -9,15 +9,15 @@
   "tags": [
     {
       "label": "facebook",
-      "permalink": "/projects/build/blog/tags/facebook"
+      "permalink": "/projects/blog/tags/facebook"
     },
     {
       "label": "hello",
-      "permalink": "/projects/build/blog/tags/hello"
+      "permalink": "/projects/blog/tags/hello"
     },
     {
       "label": "docusaurus",
-      "permalink": "/projects/build/blog/tags/docusaurus"
+      "permalink": "/projects/blog/tags/docusaurus"
     }
   ],
   "readingTime": 0.405,
@@ -40,6 +40,6 @@
   ],
   "nextItem": {
     "title": "MDX Blog Post",
-    "permalink": "/projects/build/blog/mdx-blog-post"
+    "permalink": "/projects/blog/mdx-blog-post"
   }
 }

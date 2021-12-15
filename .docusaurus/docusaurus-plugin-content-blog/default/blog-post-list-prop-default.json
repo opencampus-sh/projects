@@ -3,19 +3,19 @@
   "items": [
     {
       "title": "Welcome",
-      "permalink": "/projects/build/blog/welcome"
+      "permalink": "/projects/blog/welcome"
     },
     {
       "title": "MDX Blog Post",
-      "permalink": "/projects/build/blog/mdx-blog-post"
+      "permalink": "/projects/blog/mdx-blog-post"
     },
     {
       "title": "Long Blog Post",
-      "permalink": "/projects/build/blog/long-blog-post"
+      "permalink": "/projects/blog/long-blog-post"
     },
     {
       "title": "First Blog Post",
-      "permalink": "/projects/build/blog/first-blog-post"
+      "permalink": "/projects/blog/first-blog-post"
     }
   ]
 }

@@ -47,11 +47,8 @@ export type Tag = {
 
 export type TagType =
   | 'favorite'
-  | 'opensource'
-  | 'ML'
   | 'marketing'
-  | 'design'
-  | 'web'
+  | 'social'
   | 'PM';
 
 export type User = {
@@ -75,122 +72,100 @@ export const Tags: Record<TagType, Tag> = {
     label: 'OC-Favorite',
     description:
       'Our favorite Docusaurus sites that you must absolutely check-out!',
-    icon: <>❤️</>,
-  },
-
-  // For open-source sites, a link to the source code is required
-  opensource: {
-    label: 'Open Source',
-    description: 'Open-Source Docusaurus sites can be useful for inspiration!',
-    icon: <>👨‍💻</>,
-  },
-
-  ML: {
-    label: 'Machine Learning',
-    description: 'Open-Source Docusaurus sites can be useful for inspiration!',
-    icon: <>👨‍💻</>,
+    icon: <></>,
   },
 
   marketing: {
     label: 'Marketing',
     description: 'Docusaurus sites associated to a commercial marketing!',
-    icon: <>💵</>,
+    icon: <></>,
   },
 
-  design: {
-    label: 'Design',
+  social: {
+    label: 'Social Media',
     description:
       'Beautiful Docusaurus sites, polished and standing out from the initial template!',
-    icon: <>💅</>,
-  },
-
-  web: {
-    label: 'Websites',
-    description:
-      'Translated Docusaurus sites using the internationalization support with more than 1 locale.',
-    icon: <>🏳️</>,
+    icon: <></>,
   },
 
   PM: {
-    label: 'Project Management',
+    label: 'Projectmanagement',
     description:
       'Projects about PM.',
-    icon: <>👨‍👦‍👦</>,
+    icon: <></>,
   },
 };
 
-const PROJECT_FOLDER = 'https://github.com/opencampus-sh/ML-Projects/blob/main/src/data/nlp/code/';
+const PROJECT_FOLDER = 'https://github.com/opencampus-sh/projects/blob/main/src/data/pdfs/';
 // Add your site to this list
 // prettier-ignore
 const Users: User[] = [
   {
-    title: 'Project title',
-    preview: require('./img/logo_OC.png'),
-    course: 'Course',
-    semester: 'Semester',
-    participants: 'Participants',
-    description: 'Description',
-    source: 'source',
-    website: 'https://github.com/website.com',
-    tags: ['favorite', 'opensource'],
-  },
-  {
-    title: 'Study Recommender System with GPT-3',
-    preview: require('./img/nlp/StudyRecommendationGPT3Project.png'),
-    course: 'Natural Language Processing',
-    semester: 'WiSe 20/21',
-    participants: 'Jan Peter Prigge, Jan Deller, Erwin Smith',
+    title: 'Kommunikationskonzept - Informationskampagne hinsichtlich des Earth Overshoot Days',
+    preview: require('./img/25tagen.png'),
+    course: 'Social Media Sessions',
+    semester: 'SoSe 21',
+    participants: 'Eva Henschke',
     description: (
       <>
-      How can we choose the best study program for us when there are so many choices?
-      Jan, Jan and Erwin built a system using state of the art technology to recommend you the best choice based on what you are looking for.
+      Instagram bietet eine reichweitenstarke Plattform, um Menschen mit Informationen zu versorgen.
+      Diese Stärke soll genutzt werden, um auf die Problematik des Earth Overshoot Days aufmerksam zu machen,
+      Wissen über verschiedene Contentformate zu vermitteln und somit für mehr Aufklärung zu sorgen.
       </>
     ),
-    source: PROJECT_FOLDER + '/StudyRecommendationGPT3/StudyRecommenderSystemwithGPT-3.pdf',
-    website: PROJECT_FOLDER + '/StudyRecommendationGPT3/StudyRecommenderSystemwithGPT-3.pdf',
-    tags: ['ML', 'opensource'],
-  },
-  {
-    title: 'Classification of illustrations in historic monographies',
-    preview: require('./img/mlwt/Historic_illustrationProject.png'),
-    course: 'Machine Learning with Tensorflow',
-    semester: 'WiSe 20/21',
-    participants: 'Irena Kampa',
-    description: (
-      <>
-      Digitalizing old collections makes them available to a worldwide public.
-      This project trains a CNN to identify illustrations in monographies from the 15th to the 18th century.
-      </>
-    ),
-    source: PROJECT_FOLDER + 'Historic_illustration.ipynb',
-    website: PROJECT_FOLDER + 'Historic_illustration.ipynb',
-    tags: ['ML', 'opensource'],
-  },
-  {
-    title: 'Painting Classification',
-    preview: require('./img/dlfs/PaintingClassificationProject.png'),
-    course: 'Deep Learning from Scratch',
-    semester: 'WiSe 20/21',
-    participants: 'John Jay Kimani, Nils Berns',
-    description: (
-      <>
-      Which artist painted this painting? Nils and John tried to answer this question using neural networks with different approaches, discover more in their presentation.
-      </>
-    ),
-    source: PROJECT_FOLDER + 'PaintingClassification',
-    website: PROJECT_FOLDER + 'PaintingClassification',
-    tags: ['ML', 'opensource'],
-  },
-  {
-    title: 'Marketing Project',
-    preview: require('./img/logo_OC.png'),
-    course: 'Marketing',
-    semester: 'WiSe 20/21',
-    participants: 'Somebody',
-    description: 'a nice example project with "source: null" and therefore without source button',
     source: null,
-    website: PROJECT_FOLDER + 'PaintingClassification',
-    tags: ['marketing'],
+    website: PROJECT_FOLDER + 'Kommunikationskonzept_EarthOvershootDay.pdf',
+    tags: ['favorite', 'social'],
+  },
+  {
+    title: 'Planung einer Marketing-Kampagne für ein Kunstevent in der Burg Liebper',
+    preview: require('./img/planung.png'),
+    course: 'Marketing Sessions',
+    semester: 'WiSe 20/21',
+    participants: 'Kim Müller',
+    description: (
+      <>
+      Es wird das Marketing-Konzept zu dem Kunstevent “Emotionen - Kunst trifft auf Lyrik” vorgestellt und näher erläutert.
+      Ziel der kostenlosen Ausstellung soll es sein, sowohl kunstbegeisterte Menschen zu erreichen als auch Kunstobjekte zu verkaufen.
+      </>
+    ),
+    source: null,
+    website: PROJECT_FOLDER + 'Marketing_Kunstevent.pdf',
+    tags: ['favorite', 'marketing'],
+  },
+  {
+    title: 'Planung eines „Runden Tischs” für ein Mehrwegsystem in der Kieler Gastronomie',
+    preview: require('./img/gastro.png'),
+    course: 'Projektmanagement Sessions',
+    semester: 'SoSe 21',
+    participants: 'Sarah Diefenbach',
+    description: (
+      <>
+      Der Projektbericht dokumentiert den Planungsprozess für die Organisation eines Runden Tischs für ein Mehrwegsystem im Kieler Gastronomiesektor.
+      Das Ziel des Events ist es, den Austausch zur Einführung eines oder einiger weniger Mehrwegsysteme in den teilnehmenden Kieler Restaurants anzuregen.
+      Dazu werden Vertreter des Umweltamts, des Gesundheitsamts, der Restaurants, der Presse und verschiedene Mehrwegsystem-Anbieter eingeladen.
+      </>
+    ),
+    source: null,
+    website: PROJECT_FOLDER + 'Mehrwegsystem_Kieler_Gastronomie.pdf',
+    tags: ['favorite', 'PM'],
+  },
+  {
+    title: 'Praxis ohne Plastik',
+    preview: require('./img/p_o_p.png'),
+    course: 'Social Media Sessions',
+    semester: 'SoSe 21',
+    participants: 'Nora Stroetzel',
+    description: (
+      <>
+       Praxis ohne Plastik wurde gegründet, um nachhaltigen Produkten in der Medizinbranche eine Plattform zu bieten
+       und Müll im Gesundheitswesen zu verringern. Als junges Projekt, das seit Januar besteht, ist es noch sehr unbekannt.
+       Eine Social Media Strategie wurde erarbeitet, um es auf dem Markt bekannt zu machen.
+      </>
+    ),
+    source: null,
+    website: PROJECT_FOLDER + 'Praxis_ohne_Plastik.pdf',
+    tags: ['favorite', 'social'],
   },
 
   /*
@@ -294,17 +269,17 @@ function ensureUserValid(user: User) {
       throw new Error(
         "The source attribute is required.\nIf your Docusaurus site is not open-source, please make it explicit with 'source: null'",
       );
-    } else {
-      const hasOpenSourceTag = user.tags.includes('opensource');
-      if (user.source === null && hasOpenSourceTag) {
-        throw new Error(
-          "You can't add the opensource tag to a site that does not have a link to source code.",
-        );
-      } else if (user.source && !hasOpenSourceTag) {
-        throw new Error(
-          "For open-source sites, please add the opensource tag",
-        );
-      }
+    // } else {
+    //   const hasOpenSourceTag = user.tags.includes('opensource');
+    //   if (user.source === null && hasOpenSourceTag) {
+    //     throw new Error(
+    //       "You can't add the opensource tag to a site that does not have a link to source code.",
+    //     );
+    //   } else if (user.source && !hasOpenSourceTag) {
+    //     throw new Error(
+    //       "For open-source sites, please add the opensource tag",
+    //     );
+    //   }
     }
   }
 

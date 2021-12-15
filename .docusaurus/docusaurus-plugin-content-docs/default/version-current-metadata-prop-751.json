@@ -11,7 +11,7 @@
       {
         "type": "link",
         "label": "Tutorial Intro",
-        "href": "/projects/build/docs/intro"
+        "href": "/projects/docs/intro"
       },
       {
         "type": "category",
@@ -20,32 +20,32 @@
           {
             "type": "link",
             "label": "Create a Page",
-            "href": "/projects/build/docs/tutorial-basics/create-a-page"
+            "href": "/projects/docs/tutorial-basics/create-a-page"
           },
           {
             "type": "link",
             "label": "Create a Document",
-            "href": "/projects/build/docs/tutorial-basics/create-a-document"
+            "href": "/projects/docs/tutorial-basics/create-a-document"
           },
           {
             "type": "link",
             "label": "Create a Blog Post",
-            "href": "/projects/build/docs/tutorial-basics/create-a-blog-post"
+            "href": "/projects/docs/tutorial-basics/create-a-blog-post"
           },
           {
             "type": "link",
             "label": "Markdown Features",
-            "href": "/projects/build/docs/tutorial-basics/markdown-features"
+            "href": "/projects/docs/tutorial-basics/markdown-features"
           },
           {
             "type": "link",
             "label": "Deploy your site",
-            "href": "/projects/build/docs/tutorial-basics/deploy-your-site"
+            "href": "/projects/docs/tutorial-basics/deploy-your-site"
           },
           {
             "type": "link",
             "label": "Congratulations!",
-            "href": "/projects/build/docs/tutorial-basics/congratulations"
+            "href": "/projects/docs/tutorial-basics/congratulations"
           }
         ],
         "collapsed": true,
@@ -58,12 +58,12 @@
           {
             "type": "link",
             "label": "Manage Docs Versions",
-            "href": "/projects/build/docs/tutorial-extras/manage-docs-versions"
+            "href": "/projects/docs/tutorial-extras/manage-docs-versions"
           },
           {
             "type": "link",
             "label": "Translate your site",
-            "href": "/projects/build/docs/tutorial-extras/translate-your-site"
+            "href": "/projects/docs/tutorial-extras/translate-your-site"
           }
         ],
         "collapsed": true,

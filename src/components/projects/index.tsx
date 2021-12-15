@@ -155,16 +155,7 @@ function ShowcaseFilters({
             </div>
           );
         })}
-        <div className="col col--2">
-          <ShowcaseSelect
-            name="operator"
-            label="Filter: "
-            value={operator}
-            onChange={(e) => setOperator(e.target.value as Operator)}>
-            <option value="OR">OR</option>
-            <option value="AND">AND</option>
-          </ShowcaseSelect>
-        </div>
+
       </div>
     </div>
   );

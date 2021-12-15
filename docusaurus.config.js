@@ -6,11 +6,11 @@ module.exports = {
   title: 'opencampus.sh projects',
   tagline: 'check out the projects',
   url: 'https://opencampus-sh.github.io',
-  baseUrl: '/projects/build/',
+  baseUrl: '/projects/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo_OC.ico',
-  organizationName: 'opencampus.sh', // Usually your GitHub org/user name.
+  organizationName: 'opencampus-sh', // Usually your GitHub org/user name.
   projectName: 'projects', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -38,7 +38,12 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://opencampus.gitbook.io/opencampus-machine-learning-program/',
+          label: 'Machine Learning',
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/opencampus-sh/projects',
           label: 'GitHub',
           position: 'right',
         },

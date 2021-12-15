@@ -2,11 +2,11 @@ export default {
   "title": "opencampus.sh projects",
   "tagline": "check out the projects",
   "url": "https://opencampus-sh.github.io",
-  "baseUrl": "/projects/build/",
+  "baseUrl": "/projects/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/logo_OC.ico",
-  "organizationName": "opencampus.sh",
+  "organizationName": "opencampus-sh",
   "projectName": "projects",
   "themeConfig": {
     "navbar": {
@@ -27,7 +27,12 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://opencampus.gitbook.io/opencampus-machine-learning-program/",
+          "label": "Machine Learning",
+          "position": "left"
+        },
+        {
+          "href": "https://github.com/opencampus-sh/projects",
           "label": "GitHub",
           "position": "right"
         }

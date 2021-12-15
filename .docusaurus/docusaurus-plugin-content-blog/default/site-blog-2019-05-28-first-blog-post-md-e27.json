@@ -1,5 +1,5 @@
 {
-  "permalink": "/projects/build/blog/first-blog-post",
+  "permalink": "/projects/blog/first-blog-post",
   "editUrl": "https://github.com/opencampus-sh/ML-Projects/blog/blog/2019-05-28-first-blog-post.md",
   "source": "@site/blog/2019-05-28-first-blog-post.md",
   "title": "First Blog Post",
@@ -9,11 +9,11 @@
   "tags": [
     {
       "label": "hola",
-      "permalink": "/projects/build/blog/tags/hola"
+      "permalink": "/projects/blog/tags/hola"
     },
     {
       "label": "docusaurus",
-      "permalink": "/projects/build/blog/tags/docusaurus"
+      "permalink": "/projects/blog/tags/docusaurus"
     }
   ],
   "readingTime": 0.12,
@@ -29,6 +29,6 @@
   ],
   "prevItem": {
     "title": "Long Blog Post",
-    "permalink": "/projects/build/blog/long-blog-post"
+    "permalink": "/projects/blog/long-blog-post"
   }
 }
